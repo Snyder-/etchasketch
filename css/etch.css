@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+html,
+button {
+  font-family: 'Lobster';
+}
+
+body {
+  background-color: coral;
+}
+
+.container {
+  z-index: 999;
+  border: 50px solid #900000;
+  border-radius: 30px;
+  height: 399px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  position: relative;
+  margin-top: -31px;
+  top: -9px;
+  left: 85px;
+  color: yellow;
+  font-size: 25px;
+  overflow: hidden;
+}
+
+button {
+  height: 30px;
+  width: 150px;
+  margin: 20px 0px 20px 0px;
+  background-color: rgb(55, 130, 85);
+  color: #fff;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 5.5px;
+  background: -webkit-linear-gradient(top, red, #000);
+  background: linear-gradient(top, #878787, #000);
+}
+
+button:hover {
+  transition: 0.4s;
+  transform: scale(0.875, 1.5);
+  background-color: rgb(130, 180, 1);
+}
+
+.regular-div-hover {
+  background-color: black;
+}
+
+.rainbow-div-hover {
+  background-color: blue;
+}
+
+.square {
+  float: left;
+  background-color: #aaa;
+}
+
+#title {
+  font-size: 60px;
+  margin: 0;
+  background: -webkit-linear-gradient(top, red, #000);
+  background: linear-gradient(top, #878787, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#menu {
+  text-align: center;
+}
+
+#magic,
+#screen {
+  font-family: lucida;
+  font-size: 11px;
+  position: relative;
+  top: -5px;
+}
+
+#knob1 img {
+  height: 20px;
+  width: 20px;
+  margin-top: -32px;
+  zoom: 2.2;
+  position: relative;
+  top: 11px;
+  right: 20px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+#knob1 > img:hover {
+  -webkit-transform: rotate(640deg);
+  transform: rotate(640deg);
+}
+
+#knob2 > img {
+  height: 19px;
+  width: 20px;
+  margin-top: -21px;
+  zoom: 2.2;
+  position: relative;
+  top: 3px;
+  right: -180px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+#knob2 > img:hover {
+  -webkit-transform: rotate(-640deg);
+  transform: rotate(-640deg);
+}
+
+#grid {
+  background-color: white;
+  height: 400px;
+}
+
